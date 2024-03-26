@@ -1,0 +1,27 @@
+.calendar {
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  .day-off {
+    background-color: red; /* Set background color to red */
+    color: white; /* Set text color to white for better contrast */
+}
